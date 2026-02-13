@@ -27,22 +27,36 @@ export default function CTA() {
 
       <div className="relative max-w-4xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-          Help build the future of clinic infrastructure
+          Connect with the Clinicae Team
         </h2>
 
-        <p className="text-lg text-white/80 mb-12">
+        <p className="text-lg text-white/80 mb-12 leading-relaxed">
           We are onboarding pilot partners and strategic collaborators. 
-          Join us in building resilient, human-centered health systems.
+          Reach out directly to discuss partnerships, pilot programs, and implementation.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <button className="px-10 py-4 bg-[#FF6B6B] rounded-xl font-semibold text-lg hover:opacity-90 transition-all shadow-lg">
-            Request Early Access
-          </button>
+          {/* Email Buttons */}
+          <a
+            href="mailto:kampambashul@gmail.com"
+            className="px-10 py-4 bg-[#FF6B6B] rounded-xl font-semibold text-lg hover:opacity-90 transition-all shadow-lg"
+          >
+            Email Kampamba
+          </a>
 
-          <button className="px-10 py-4 border border-white/50 rounded-xl font-semibold text-lg hover:bg-white hover:text-[#103D54] transition-all shadow-sm">
+          <a
+            href="mailto:mumbashula@gmail.com"
+            className="px-10 py-4 bg-[#FF6B6B]/70 rounded-xl font-semibold text-lg hover:bg-[#FF6B6B] transition-all shadow-lg"
+          >
+            Email Mumba
+          </a>
+
+          <a
+            href="/CLINICAE_Pitch_Deck.pdf"
+            className="px-10 py-4 border border-white/50 rounded-xl font-semibold text-lg hover:bg-white hover:text-[#103D54] transition-all shadow-sm"
+          >
             Download Deck
-          </button>
+          </a>
         </div>
       </div>
     </motion.section>

@@ -2,7 +2,7 @@ import Container from "./Container";
 
 export default function StatsStrip() {
   const stats = [
-    { label: "Clinics Still Paper-Based", value: "80%" },
+    { label: "Clinics Still Paper-Based", value: "70%" },
     { label: "Connectivity Drops in Rural Areas", value: "60%" },
     { label: "Reduction in Admin Time (Pilot)", value: "40%" },
   ];
