@@ -53,7 +53,9 @@ export default function CTA() {
 
           <a
             href="/CLINICAE_Pitch_Deck.pdf"
-            className="px-10 py-4 border border-white/50 rounded-xl font-semibold text-lg hover:bg-white hover:text-[#103D54] transition-all shadow-sm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="..."
           >
             Download Deck
           </a>
