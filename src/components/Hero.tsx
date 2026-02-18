@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Screenshot from "../assets/clinicae-screenshot1.png";
+import Screenshot from "../assets/1.png";
 
 export default function Hero() {
   return (
